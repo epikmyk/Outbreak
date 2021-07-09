@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "BCTEXT";
+    src: url("../fonts/BCTEXT__.TTF");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%; 
+}
+
+body {
+    background-position: center;
+    background-color: #d4d3cf;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../images/room.jpg");
+    min-height: 100%;
+    width: 100%;
+}
+
+.wrap, .wrap canvas {
+    width:100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);  
+}
+
+
+.wrap > * {
+    position: absolute;
+}
+
+.yanomamiHutModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-top: -4%;
+    left: 1%;
+    width: 22%;
+    overflow: auto; 
+}
+
+.yanomamiDesignsModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-top: -4%;
+    left: 75%;
+    width: 22%;
+    overflow: auto; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size-adjust: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+#vaccineWrap {
+    margin-top: -9%;
+    left: 30%;
+    width: 4%;
+}
+
+input:focus {
+    outline: none;
+}
+#numOfVaccinations {
+    border-color: #cccccc;
+    background: #e8ecf8;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+}
+
+#doctorWrap {
+    margin-top: -9%;
+    left: 40%;
+    width: 4%; 
+}
+
+#numOfDoctors {
+    border-color: #cccccc;
+    background: #e8ecf8;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    text-align: center;
+    
+}
+
